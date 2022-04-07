@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+	<head>
+		<meta name="filename" content="butterfly-animation.x3d" />
+		<meta name="generator" content="Blender 2.74 (sub 0)" />
+	</head>
+	<Scene>
+		<NavigationInfo headlight="true"
+		                visibilityLimit="0.0"
+		                type='"EXAMINE", "ANY"'
+		                avatarSize="0.25, 1.75, 0.75"
+		                />
+		
+		<Transform DEF="tinker_root_001_TRANSFORM"
+		           translation="-0.400900 -0.048900 0.000000"
+		           scale="1 1 1"
+		           rotation="-0.000000 0.000000 -1.000000 2.995059"
+		           >
+		</Transform>
+		<Transform DEF="tinker_root_TRANSFORM"
+		           translation="0.025300 0.004900 0.000000"
+		           scale="1 1 1"
+		           rotation="-0.000000 -0.000001 1.000000 3.023537"
+		           >
+		</Transform>
+	</Scene>
+</X3D>

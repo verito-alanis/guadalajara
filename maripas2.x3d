@@ -1,0 +1,68 @@
+<x3d class="mariposas">
+    <Scene>
+    <transform DEF="Mariposa">
+
+        <transform translation="-4 3 0" scale="0.08 0.08 0.08" rotation="-1 0 0 2" >
+            <inline url="mariposa1.x3d"></inline>
+        </transform>
+
+        <transform translation="2 4 4" scale="0.6 0.6 0.6" rotation="0 0 0 5" >
+            <inline url="mariposa2.x3d"></inline>
+        </transform>
+
+        <transform translation="2 0 0" scale="0.2 0.2 0.2" rotation="0 0 0 2" >
+            <inline url="mariposa3.x3d"></inline>
+        </transform>
+
+        <transform translation="-4 -2 6" scale="0.08 0.08 0.08" rotation="-1 0 0 2" >
+            <inline url="mariposa1.x3d"></inline>
+        </transform>
+
+        <transform translation="5 1 9" scale="0.6 0.6 0.6" rotation="0 0 0 5" >
+            <inline url="mariposa2.x3d"></inline>
+        </transform>
+
+        <transform translation="-6 5 1" scale="0.2 0.2 0.2" rotation="0 0 0 2" >
+            <inline url="mariposa3.x3d"></inline>
+        </transform>
+
+        <transform translation="4 3 0" scale="0.08 0.08 0.08" rotation="-1 0 0 2" >
+            <inline url="mariposa1.x3d"></inline>
+        </transform>
+
+        <transform translation="-2 -4 2" scale="0.6 0.6 0.6" rotation="0 0 0 5" >
+            <inline url="mariposa2.x3d"></inline>
+        </transform>
+
+        <transform translation="2.5 4.6 3" scale="0.2 0.2 0.2" rotation="0 0 0 2" >
+            <inline url="mariposa3.x3d"></inline>
+        </transform>
+
+        <transform translation="-4.7 3.6 6" scale="0.08 0.08 0.08" rotation="-1 0 0 2" >
+            <inline url="mariposa1.x3d"></inline>
+        </transform>
+
+        <transform translation="2 4 4" scale="0.6 0.6 0.6" rotation="0 0 0 5" >
+            <inline url="mariposa2.x3d"></inline>
+        </transform>
+
+        <transform translation="2 0 0" scale="0.2 0.2 0.2" rotation="0 0 0 2" >
+            <inline url="mariposa3.x3d"></inline>
+        </transform>
+      
+
+        
+
+    <!-- Parámetros de animación: sensor de tiempo y cuál eje se animará -->
+    <timeSensor DEF='timerTL' cycleInterval='25' loop='true'></timeSensor>
+    <orientationInterpolator DEF='rotatorTL' key=' 0 0.5 1'  keyValue='0 1 0 0 0 1 0 3.14 0 1 0 6.28'>  </orientationInterpolator>
+
+
+    </transform>
+
+    <!-- ROUTE canaliza el sensor de tiempo y la rotación al transform -->
+			<ROUTE fromNode='timerTL' fromField='fraction_changed' toNode='rotatorTL' toField='set_fraction'></ROUTE>
+			<ROUTE fromNode='rotatorTL' fromField='value_changed' toNode='Mariposa' toField='set_rotation'></ROUTE>
+
+    </Scene>
+</x3d>

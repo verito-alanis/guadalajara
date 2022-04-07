@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Museo Regional de Guadalajara</title>
+     <script src='https://www.x3dom.org/x3dom/release/x3dom-full.js'></script>
+    <link rel='stylesheet' href='https://www.x3dom.org/x3dom/release/x3dom.css'>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+            margin: 0;
+        }
+
+        .fondo {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+
+ </head>
+<body>
+  <X3D class="fondo">
+<Scene>
+
+  <!-- PLANTA BAJA -->
+
+<Transform DEF='PlantaBaja'>
+    <Transform DEF='Fila'>
+        <Transform DEF='Arco' scale="2, 2, 2"><inline DEF="ArcoB" url="arco.x3d"></inline></Transform>
+        
+        <Transform translation='5.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/></Transform>
+        <Transform translation='11.4 0 0' scale="2, 2, 2" ><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='17 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='22.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='28.2 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+    </Transform>
+
+    <Transform translation='0 0 35'>
+      <Transform DEF='Arco' scale="2, 2, 2"><inline DEF="ArcoB" url="arco.x3d"></inline></Transform>
+        
+        <Transform translation='5.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/></Transform>
+        <Transform translation='11.4 0 0' scale="2, 2, 2" ><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='17 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='22.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='28.2 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+    </Transform>
+
+    <Transform rotation='0 1 0 1.57' translation='-2.4 0 31.6'>
+      <Transform DEF='Arco' scale="2, 2, 2"><inline DEF="ArcoB" url="arco.x3d"></inline></Transform>
+        
+        <Transform translation='5.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/></Transform>
+        <Transform translation='11.4 0 0' scale="2, 2, 2" ><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='17 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='22.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='28.2 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+    </Transform>
+
+    <Transform rotation='0 1 0 1.57' translation='30.5 0 31.6'>
+      <Transform DEF='Arco' scale="2, 2, 2"><inline DEF="ArcoB" url="arco.x3d"></inline></Transform>
+        
+        <Transform translation='5.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/></Transform>
+        <Transform translation='11.4 0 0' scale="2, 2, 2" ><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='17 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='22.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+        <Transform translation='28.2 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+    </Transform>
+</Transform>
+
+<!-- PLANTA ALTA -->
+
+<Transform DEF='PlantaAlta'  translation='0 7.1 0'>
+  <Transform DEF='Fila'>
+      <Transform DEF='Arco' scale="2, 2, 2"><inline DEF="ArcoB" url="arco.x3d"></inline></Transform>
+      
+      <Transform translation='5.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/></Transform>
+      <Transform translation='11.4 0 0' scale="2, 2, 2" ><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='17 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='22.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='28.2 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+  </Transform>
+
+  <Transform translation='0 0 35'>
+    <Transform DEF='Arco' scale="2, 2, 2"><inline DEF="ArcoB" url="arco.x3d"></inline></Transform>
+      
+      <Transform translation='5.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/></Transform>
+      <Transform translation='11.4 0 0' scale="2, 2, 2" ><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='17 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='22.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='28.2 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+  </Transform>
+
+  <Transform rotation='0 1 0 1.57' translation='-2.4 0 31.6'>
+    <Transform DEF='Arco' scale="2, 2, 2"><inline DEF="ArcoB" url="arco.x3d"></inline></Transform>
+      
+      <Transform translation='5.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/></Transform>
+      <Transform translation='11.4 0 0' scale="2, 2, 2" ><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='17 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='22.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='28.2 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+  </Transform>
+
+  <Transform rotation='0 1 0 1.57' translation='30.5 0 31.6'>
+    <Transform DEF='Arco' scale="2, 2, 2"><inline DEF="ArcoB" url="arco.x3d"></inline></Transform>
+      
+      <Transform translation='5.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/></Transform>
+      <Transform translation='11.4 0 0' scale="2, 2, 2" ><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='17 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='22.7 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+      <Transform translation='28.2 0 0' scale="2, 2, 2"><Shape USE='ArcoB'/> </Transform>
+  </Transform>
+</Transform>
+
+
+<!-- Suelo -->
+
+<Transform rotation="1 0 0 1.57" translation='15 -4 15'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/piso.jpg"></ImageTexture>
+      <TextureTransform scale="30, 30"></TextureTransform>
+    </Appearance>
+    <Box size="80 80 1"></Box>
+  </Shape>
+
+</Transform>
+
+<!-- Fondo de color -->
+
+<Background
+skyColor="0.21 0.18 0.66, 0.2 0.44 0.85, 0.51 0.81 0.95, 0.77 0.80 0.82"
+skyAngle="0.5 1.5 1.57"
+groundColor="0.6 0.7 0.1, 0.4 0.7 0.2, 0.1 0.6 0.1, 0 0.3 0.1"
+groundAngle="0.9 1.5 1.57"></Background>
+
+<!-- Paredes -->
+
+<Transform rotation="0 0 0 1.57" translation='14 3 -7'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="10, 10"></TextureTransform>
+    </Appearance>
+    <Box size="50 15 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="0 0 0 1.57" translation='14 3 42'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="10, 10"></TextureTransform>
+    </Appearance>
+    <Box size="50 15 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="0 1 0 1.57" translation='39 3 17.5'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="10, 10"></TextureTransform>
+    </Appearance>
+    <Box size="50 15 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="0 1 0 1.57" translation='-10.7 3 2.5'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="9, 9"></TextureTransform>
+    </Appearance>
+    <Box size="20 15 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="0 1 0 1.57" translation='-10.7 3 30'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="9, 9"></TextureTransform>
+    </Appearance>
+    <Box size="25 15 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="0 1 0 1.57" translation='-10.7 5.5 15'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="9, 9"></TextureTransform>
+    </Appearance>
+    <Box size="15 10 1"></Box>
+  </Shape>
+
+</Transform>
+
+<!-- Techo -->
+
+<Transform rotation="1 0 0 1.57" translation='14 11 -3.4'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="10, 10"></TextureTransform>
+    </Appearance>
+    <Box size="50 8.6 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="1 0 0 1.57" translation='14 3 -3.4'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="10, 10"></TextureTransform>
+    </Appearance>
+    <Box size="50 8.6 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="1 0 0 1.57" translation='14 11 38'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="10, 10"></TextureTransform>
+    </Appearance>
+    <Box size="50 8.6 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="1 0 0 1.57" translation='14 3 38'>
+  <Shape>
+    <Appearance>
+      <ImageTexture url="img/pared.jpg"></ImageTexture>
+      <TextureTransform scale="10, 10"></TextureTransform>
+    </Appearance>
+    <Box size="50 8.6 1"></Box>
+  </Shape>
+
+</Transform>
+
+<Transform rotation="0 1 0 1.57" translation='-3 0 33'>
+  
+  <Transform rotation="1 0 0 1.57" translation='14 11 -3.4'>
+    <Shape>
+      <Appearance>
+        <ImageTexture url="img/pared.jpg"></ImageTexture>
+        <TextureTransform scale="10, 10"></TextureTransform>
+      </Appearance>
+      <Box size="40 8.6 1"></Box>
+    </Shape>
+
+  </Transform>
+
+  <Transform rotation="1 0 0 1.57" translation='14 3 -3.4'>
+    <Shape>
+      <Appearance>
+        <ImageTexture url="img/pared.jpg"></ImageTexture>
+        <TextureTransform scale="10, 10"></TextureTransform>
+      </Appearance>
+      <Box size="40 8.6 1"></Box>
+    </Shape>
+
+  </Transform>
+
+  <Transform rotation="1 0 0 1.57" translation='14 11 38'>
+    <Shape>
+      <Appearance>
+        <ImageTexture url="img/pared.jpg"></ImageTexture>
+        <TextureTransform scale="10, 10"></TextureTransform>
+      </Appearance>
+      <Box size="40 9 1"></Box>
+    </Shape>
+
+  </Transform>
+
+  <Transform rotation="1 0 0 1.57" translation='14 3 38'>
+    <Shape>
+      <Appearance>
+        <ImageTexture url="img/pared.jpg"></ImageTexture>
+        <TextureTransform scale="10, 10"></TextureTransform>
+      </Appearance>
+      <Box size="40 8 1"></Box>
+    </Shape>
+
+  </Transform>
+
+</Transform>
+
+<!-- Fuente -->
+
+<Transform DEF='Fuente' scale="0.3, 0.3, 0.3" translation='15 -3 17'><inline DEF="ArcoB" url="fuente.x3d"></inline></Transform>
+
+
+
+</Scene>
+  </X3D>  
+</body>
+</html>
